@@ -12,11 +12,11 @@ public class Ch02Ex02_08 {
 		String num = scanner.nextLine();
 		String input = scanner.nextLine();
 		String input1 = scanner.nextLine();
-		float num1 = Float.parseFloat(num);
-		float num2 = Float.parseFloat(input);
+		double num1 = Double.parseDouble(num);
+		double num2 = Double.parseDouble(input);
 		
 		
-		System.out.printf("%.2f%n%6.2f%n%s",num1,num2,input1);
+		System.out.printf("%.2f%n%.2f%n%s",num1,num2,input1);
 		
 
 	}

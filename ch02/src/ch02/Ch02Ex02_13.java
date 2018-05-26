@@ -20,6 +20,7 @@ public class Ch02Ex02_13 {
 		float avg = sum/3;
 		
 		System.out.printf("sum = %d%n avg = %2.0f",sum,avg);
+		
 
 	}
 

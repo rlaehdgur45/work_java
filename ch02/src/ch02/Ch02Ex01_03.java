@@ -9,10 +9,12 @@ public class Ch02Ex01_03 {
 		
 		
 		
-		System.out.println("My height");
-		System.out.printf("%d%n",a);
-		System.out.println("My weight");
-		System.out.printf("%f%n",b);
+		//System.out.println("My height");
+		//System.out.printf("%d%n",a);
+		//System.out.println("My weight");
+		//System.out.printf("%f%n",b);
+		
+		System.out.printf("My height%n%d%nMy weight%n%f%n",a,b);
 
 	}
 

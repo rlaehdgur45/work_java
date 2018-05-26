@@ -8,9 +8,13 @@ public class Ch02Ex02_01 {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("숫자를 입력해주세요.>");
-		int kor =scanner.nextInt();
-		int mat =scanner.nextInt();
-		int eng =scanner.nextInt();
+		String strkor = scanner.nextLine();
+		String strmat = scanner.nextLine();
+		String streng = scanner.nextLine();
+		
+		int kor =Integer.parseInt(strkor);
+		int mat =Integer.parseInt(strmat);
+		int eng =Integer.parseInt(streng);
 		
 		int sum = kor + mat + eng ;
 		int avg = (kor + mat + eng) /3;

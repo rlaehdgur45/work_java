@@ -8,9 +8,10 @@ public class Ch02Ex02_02 {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("숫자를 입력해주세요.>");
-		String input = scanner.nextLine();
+		String input1 = scanner.nextLine();
+		int input = Integer.parseInt(input1);
 		
-		System.out.printf("%s",input);
+		System.out.printf("%d",input);
 
 	}
 
