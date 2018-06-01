@@ -1,6 +1,7 @@
+package ch03;
 import java.util.Scanner;
 
-public class ch03Ex01_05 {
+public class ch03Ex02_02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,11 +11,13 @@ public class ch03Ex01_05 {
 		String aa = scanner.nextLine();
 		int num =Integer.parseInt(a);
 		int num1 =Integer.parseInt(aa);
+		
+		num += 5; // num = num + 5;
+		num1 *= 2;
+		System.out.printf("width=%d%nlength=%d%narea=%d",num,
+				num1,num*num1 );
+		
 
-		System.out.printf("4>5---%b%n",num>num1);
-		System.out.printf("4<5---%b%n",num<num1);
-		System.out.printf("4>=5---%b%n",num>=num1);
-		System.out.printf("4<=5---%b%n",num<=num1);
 
 	}
 

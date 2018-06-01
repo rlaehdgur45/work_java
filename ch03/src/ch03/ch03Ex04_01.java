@@ -1,3 +1,4 @@
+package ch03;
 
 public class ch03Ex04_01 {
 

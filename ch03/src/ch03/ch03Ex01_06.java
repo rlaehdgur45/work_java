@@ -1,6 +1,7 @@
+package ch03;
 import java.util.Scanner;
 
-public class ch03Ex02_02 {
+public class ch03Ex01_06 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,12 +12,8 @@ public class ch03Ex02_02 {
 		int num =Integer.parseInt(a);
 		int num1 =Integer.parseInt(aa);
 		
-		num=num+=5;
-		num1=num1*=2;
-		System.out.printf("width=%d%nlength=%d%narea=%d",num,
-				num1,num*num1 );
-		
-
+		System.out.printf("%b %b",num!=0 && num1!=0 
+				,num!=0 || num1!=0);
 
 	}
 
