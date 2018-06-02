@@ -7,6 +7,10 @@ public class ch03Ex02_01 {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 
+		//String[] numbers =scanner.nextLine().split(" ");
+		//int num= Integer.parseInt(numbers[0]);
+		//int num1= Integer.parseInt(numbers[1]);
+		
 		String a = scanner.nextLine();
 		String aa = scanner.nextLine();
 		int num =Integer.parseInt(a);

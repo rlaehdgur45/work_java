@@ -9,8 +9,8 @@ public class ch03Ex01_02 {
 		String a = scanner.nextLine();
 		int num =Integer.parseInt(a);
 		
-		System.out.printf("%d%n",num++);
-		System.out.printf("%d",++num);
+		System.out.printf("%d%n%d",num++,++num);
+		//System.out.printf("%d",++num);
 		
 
 	}
