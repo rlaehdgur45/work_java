@@ -2,7 +2,7 @@ package ch04;
 
 import java.util.Scanner;
 
-public class ch04Ex01_09 {
+public class ch04Ex01_10 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,18 +12,12 @@ public class ch04Ex01_09 {
 		
 		int num1 = Integer.parseInt(tmp1[0]);
 		int num2 = Integer.parseInt(tmp1[1]);
-		int num3 = Integer.parseInt(tmp1[2]);
 		
 		if(num1 <num2) {
-			if(num1<num3) {
-				System.out.println(num1);
-			}
-			else {
-				System.out.println(num3);
-			}
+			System.out.printf("%d",num2-num1);
 		}
-		else{
-			System.out.println(num2);
+		else {
+			System.out.printf("%d",num1-num2);
 		}
 
 	}
