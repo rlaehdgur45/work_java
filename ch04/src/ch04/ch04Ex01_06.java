@@ -10,10 +10,21 @@ public class ch04Ex01_06 {
 		Scanner scanner =new Scanner(System.in);
 		System.out.print("성별(M,F)과 나이를 입력해주세요>");
 		String[] tmp1 = scanner.nextLine().split(" ");
-		int gender=Integer.parseInt(tmp1[0]);
+		char gender=tmp1[0].charAt(0);
 		int age=Integer.parseInt(tmp1[1]);
 		
-		System.out.println(gender);
+		if(gender == 'M' && age == 18) {
+			System.out.println("Man");
+		}
+		else if(gender == 'F' && age == 18) {
+			System.out.println("Woman");
+		}
+		else if(gender == 'M' && age != 18) {
+			System.out.println("Boy");
+		}
+		else {
+			System.out.println("Girl");
+		}
 
 	}
 
