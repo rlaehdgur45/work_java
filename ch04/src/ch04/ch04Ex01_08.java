@@ -12,7 +12,7 @@ public class ch04Ex01_08 {
 		String tmp = scanner.nextLine();
 		float num = Float.parseFloat(tmp);
 		
-		switch((int)num) { 
+		switch((int)num) {
 		case(int)4.0 :
 			System.out.println("scholarship");
 			break;

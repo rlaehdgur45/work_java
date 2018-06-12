@@ -14,7 +14,7 @@ public class Ex11 {
 		(1) 알맞은 코드를 넣어 완성하시오.
 		*/
 			num3 = num1 +num2;
-			System.out.println(","+ num3);
+			System.out.print(","+ num3);
 			num1=num2;
 			num2=num3;
 			/*if(i<4) {

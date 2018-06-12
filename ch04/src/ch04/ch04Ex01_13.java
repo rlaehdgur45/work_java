@@ -8,8 +8,8 @@ public class ch04Ex01_13 {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("숫자 하나를 입력해 주세요.>");
-		String tmp = scanner.nextLine();
-		int su = Integer.parseInt(tmp);
+		int su = Integer.parseInt
+				(scanner.nextLine());
 		
 		
 		if(su ==1) {
@@ -24,6 +24,20 @@ public class ch04Ex01_13 {
 		else {
 			System.out.println("I don't know");
 		}
+		
+		/*switch(su) {
+		case 1:
+			System.out.println("dog");
+			break;
+		case 2:
+			System.out.println("cat");
+			break;
+		case 3:
+			System.out.println("chick");
+			break;
+		default:
+			System.out.println("I don't know");
+		}*/
 
 	}
 

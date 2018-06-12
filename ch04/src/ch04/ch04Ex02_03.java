@@ -8,8 +8,7 @@ public class ch04Ex02_03 {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("정수를 입력해 주세요.(0:종료)>");
-		String tmp = scanner.nextLine();
-		int num = Integer.parseInt(tmp);
+		int num = Integer.parseInt(scanner.nextLine());
 		
 		do {
 			if(num>0) {
@@ -23,8 +22,7 @@ public class ch04Ex02_03 {
 				break;
 			}
 			System.out.print("정수를 입력해 주세요.(0:종료)>");
-			tmp = scanner.nextLine();
-			num = Integer.parseInt(tmp);
+			num = Integer.parseInt(scanner.nextLine());
 		}while(true);
 		
 		

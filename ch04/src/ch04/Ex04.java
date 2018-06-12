@@ -46,6 +46,8 @@ public class Ex04 {
 		for(int i =1; sum < 100; i++, s=-s) {
 			num = i*s;
 			sum += num;
+			
+
 		}
 		System.out.println("답 ="+ num);
 		System.out.println("총합 =" + sum);

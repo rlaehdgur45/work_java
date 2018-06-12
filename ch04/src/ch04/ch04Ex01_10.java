@@ -19,7 +19,9 @@ public class ch04Ex01_10 {
 		else {
 			System.out.printf("%d",num1-num2);
 		}
-
+		//번외 메소드 이용해서 구하는 방법
+		//***Math.abs():절대값 리턴하는 메소드***
+		//System.out.println(Math.abs(num1-num2));
 	}
 
 }

@@ -18,8 +18,8 @@ public class ch04Ex02_02 {
 		}
 		for(int i=1; i<=num; i++) {
 			su+=i;
-			System.out.print(su+" ");
-		}
+			System.out.print(i+" ");
+		}System.out.print(su);
 
 	}
 

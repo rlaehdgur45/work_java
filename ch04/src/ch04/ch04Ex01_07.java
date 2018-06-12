@@ -10,7 +10,8 @@ public class ch04Ex01_07 {
 		System.out.print("영문자 하나를 입력해 주세요>");
 		String tmp1 = scanner.nextLine();
 		char num=tmp1.charAt(0);
-		
+		//char tmp1= scanner.nextLine().charAt(0);
+		//switch문을 사용 하는게 편하다?
 		if(num=='A') {
 			System.out.println("Excellent");
 		}

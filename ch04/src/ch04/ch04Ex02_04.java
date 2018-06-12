@@ -11,14 +11,13 @@ public class ch04Ex02_04 {
 		float avg = 0;
 		Scanner scanner=new Scanner(System.in);
 		System.out.print("100이하 정수를 입력해주세요.>");
-		String tmp = scanner.nextLine();
-		int num = Integer.parseInt(tmp);
+		int num = Integer.parseInt(scanner.nextLine());
 		while(num!=100) {
 			sum+=num;
 			count++;
+			
 
-			tmp = scanner.nextLine();
-			num = Integer.parseInt(tmp);
+			num = Integer.parseInt(scanner.nextLine());
 		}
 		sum+=num;
 		count++;

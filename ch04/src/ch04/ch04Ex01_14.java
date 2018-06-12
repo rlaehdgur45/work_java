@@ -8,9 +8,10 @@ public class ch04Ex01_14 {
 		// TODO Auto-generated method stub
 		Scanner scanner= new Scanner(System.in);
 		System.out.print("1~12의 값을 입력해주세요.>");
-		String tmp = scanner.nextLine();
-		int num = Integer.parseInt(tmp);
+		String tmp1 = scanner.nextLine();
+		int num = Integer.parseInt(tmp1);
 		
+		if(1 <= num && num <= 12) {
 			switch(num) {
 			case 1: case 3: case 5:
 			case 7: case 8: case 10:
@@ -26,7 +27,7 @@ public class ch04Ex01_14 {
 				break;
 				
 			}
-		
+		}
 
 	}
 
