@@ -15,8 +15,6 @@ public class ch04Ex02_04 {
 		while(num!=100) {
 			sum+=num;
 			count++;
-			
-
 			num = Integer.parseInt(scanner.nextLine());
 		}
 		sum+=num;
