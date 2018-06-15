@@ -12,9 +12,9 @@ public class ch04Ex02_07 {
 		int num = Integer.parseInt(tmp);
 
 		for(int i=1; i<=num; i++) {
-			
 
-			System.out.print(i);
+			
+			System.out.print(i+" ");
 		}
 
 	}

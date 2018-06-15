@@ -7,33 +7,23 @@ public class ch04Ex02_17 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
-		String tmp = scanner.nextLine();
-		int num = Integer.parseInt(tmp);
+		int num = Integer.parseInt(scanner.nextLine());
+		
+		int count=1;
+		for(int i = 0; i< num; i++) {
+			for(int j =0; j<num; j++) {
+				if(i>j) {
+					System.out.print("  ");
 
-		for (int i=0;i<num;i++){
-			for (int j=0; j<num;j++)
-			{
-				if (i<=num/2)// 위쪽 영역
-				{
-					if (i+j<=num/2-1)// 왼쪽 위 공백찍기
-						System.out.print(" ");
-					else if (j-i>=num/2+1) // 오른쪽 위 공백찍기
-						System.out.print(" ");
-					else
-						System.out.print("*");// *찍기
 				}
-				else if (i>num/2) //아래쪽 영역
-				{
-					if (i-j>=num/2+1) //왼쪽 밑 공백
-						System.out.print(" ");
-					else if (i+j>=num/2*3+1)//오른쪽 밑 공백
-						System.out.print(" ");
-					else
-						System.out.print("*"); // *찍기
+				else {
+					System.out.print(count %10 + " ");
+					count++;
 				}
-			}
-			System.out.println();//줄바꿈
+			}System.out.println();
 		}
+
+		
 	}
 
 }

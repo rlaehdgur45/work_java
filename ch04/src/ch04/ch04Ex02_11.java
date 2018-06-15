@@ -28,6 +28,10 @@ public class ch04Ex02_11 {
 			if(num3[0]!='y' && num3[0] != 'Y') {
 				break;
 			}
+			// 문자열 입력받기
+			// String answer =scanner.nextLine();
+			// answer.equalsIgnoreCase(): 괄호 안의 문자열의 
+			//대소문자 구별없이 변수와 같다면 true,아니면 false 리턴 ;
 		}
 
 	}
