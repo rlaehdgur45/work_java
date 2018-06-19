@@ -18,8 +18,10 @@ public class ch05EX01_04 {
 			int num= Integer.parseInt(tmp[i]);
 			su[i]=num;
 			if(su[i]==0) {
-				System.out.print(su[i-1]+" "+su[i-2]+" "
-			+su[i-3]+" "+su[i-4]);
+				for(int j=tmp.length-2; j>=0;j--) {
+					System.out.print(su[j]+" ");
+				}
+				
 			}
 		}
 		
