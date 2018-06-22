@@ -13,7 +13,13 @@ public class ch05Ex02_01 {
 		for(int i=ch.length; i>0;i--) {
 			System.out.print(ch[i-1]);
 		}
-
+		/*Scanner scanner = new Scanner(System.in);
+		 * String[] chars =scanner.nextLine().split(" ");
+		 * 
+		 * for(int i=ch.length; i>0;i--){
+		 * System.out.print(ch[i-1]);
+		 * }
+		 */
 	}
 
 }

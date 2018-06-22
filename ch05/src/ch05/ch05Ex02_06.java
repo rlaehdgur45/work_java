@@ -14,10 +14,10 @@ public class ch05Ex02_06 {
 		
 		for(int i=0; i<ch1.length; i++) {
 			if(ch1[i]==ch2) {
-				System.out.println(i);
-				break;
+				System.out.print(i + " ");
+				//break;
 			}
-			else if(i==5 && ch1[i]!=ch2) {
+			else if(i==ch1.length && ch1[i]!=ch2) {
 				System.out.println("none");
 			}
 			

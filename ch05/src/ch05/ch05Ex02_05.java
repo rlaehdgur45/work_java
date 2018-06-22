@@ -9,16 +9,16 @@ public class ch05Ex02_05 {
 		Scanner scanner = new Scanner(System.in);
 		String[] tmp = scanner.nextLine().split(" ");
 		double[] num = new double[tmp.length];
-		int count =0;
 
-		double avg=0f;
+
+		double sum=0f;
 		for(int i=0; i<tmp.length; i++) {
 			num[i]=Double.parseDouble(tmp[i]);
-			count++;
-			avg+=num[i];
+	
+			sum+=num[i];
 		}
 		
-		System.out.printf("%.1f",avg/count);
+		System.out.printf("%.1f",sum/tmp.length);
 		
 		
 
