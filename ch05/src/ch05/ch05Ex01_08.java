@@ -35,10 +35,10 @@ public class ch05Ex01_08 {
 
 		int[] su = new int[10];
 		for(int i=0; i<tmp.length;i++) {
-			int num = Integer.parseInt(tmp[i]);
-			su[i]=num;
+			
+			su[i]=Integer.parseInt(tmp[i]);
 		}
-		for(int i=0; i<10; i++) {
+		for(int i=0; i<tmp.length; i++) {
 			if(i%2==0) {
 				count++;
 				avg+=su[i];
@@ -49,7 +49,7 @@ public class ch05Ex01_08 {
 			}
 			
 		}
-		System.out.printf("%d%n%.1f",sum,avg/count);
+		System.out.printf("sum:%d%navg:%.1f",sum,avg/count);
 		
 		
 

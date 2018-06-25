@@ -4,7 +4,12 @@ public class ch05Ex01_02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] str= new int[10];
+		int[] nums=new int[10];
+		for(int i=0; i<nums.length;i++) {
+			nums[i]=i+1;
+			System.out.print(nums[i]+ " ");
+		}
+		/*int[] str= new int[10];
 
 		int num =1;
 		
@@ -13,8 +18,7 @@ public class ch05Ex01_02 {
 			System.out.print(str[i]+" ");
 			num++;
 		}
-		
-
+		*/
 	}
 
 }

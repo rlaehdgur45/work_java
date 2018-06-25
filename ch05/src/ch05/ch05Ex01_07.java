@@ -18,7 +18,7 @@ public class ch05Ex01_07 {
 			
 		}
 		
-		//2.10미만의 수 중 가장 큰수를 저장 하는 변수 max선언
+		//2.100미만의 수 중 가장 큰수를 저장 하는 변수 max선언
 		int max = 100;
 		//3.100이상의 수 중 가장 작은 수를 저장하는 변수 min선언
 		int min = 100;
@@ -47,7 +47,6 @@ public class ch05Ex01_07 {
 		}
 		//5.출력하기
 		System.out.println(max+" "+min);
-
 
 		/*	for(int i=0; i<str.length;i++) {
 
