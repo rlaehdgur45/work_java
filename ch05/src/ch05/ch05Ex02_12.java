@@ -20,8 +20,6 @@ public class ch05Ex02_12 {
 			//3. 십의 자리 수 구하기
 			int ten =num / 10;
 			counter[ten]++;
-			
-
 		}
 		for(int i=10; i>0;i--) {
 			if(counter[i]!=0) {

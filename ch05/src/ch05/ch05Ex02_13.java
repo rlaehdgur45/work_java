@@ -22,7 +22,7 @@ public class ch05Ex02_13 {
 				int[] db=new int[stream.length * 2];
 				System.arraycopy(stream, 0, db, 0, stream.length);
 				stream=db;
-	
+				
 			}
 			//전전항(i-2)과 전항(i-1)의 함에서 1의 자리를 배열에 채우기
 			int result = (stream[i-2]+stream[i-1])%10;
