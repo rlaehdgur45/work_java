@@ -1,10 +1,10 @@
 package ch06;
 
 public class MemberCall {
-	int iv =10;
-	static int cv =20;
+	int iv =10;	//MemberCall 클래스의 인스턴스 변수
+	static int cv =20;	//MemberCall 클래스의 클래스 변수
 	
-	int iv2=cv;
+	int iv2=cv;	//가능
 	static int cv2 = new MemberCall().iv;
 	
 	static void staticMethod1() {
