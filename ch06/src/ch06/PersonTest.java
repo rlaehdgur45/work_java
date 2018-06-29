@@ -10,10 +10,26 @@ public class PersonTest {
 		Person a3 = new Person();*/
 		//2. 각 사람(객체)마다 이름, 나이, 주소를 설정하세요.
 		//(자기소개 포함해서 옆사람 정보 작성하기)
-		for(int i=0; i<a.length;i++) {
+		/*for(int i=0; i<a.length;i++) {
 		a[i]=new Person();	
-		}
-		a[0].name="김동혁";
+		}*/
+		//[2-2]아래 방법은 객체 를 생성후 각 인스턴스 변수에 접근하여 
+		// 값을 초기화 한 부분이다.
+		// 아래 부분을 2-1에서 작성한 생성자를 이용하여 변경하시오.
+		a[0]=new Person("김동혁", 26,"인천");
+		a[1]=new Person("조은향", 19, "경기도");
+		a[2]=new Person("김기용", 19, "경기도");
+		
+		
+		/*Person s1= new Person("김동혁",26,"인천");
+		s1.so();
+		Person s2=new Person("조은향", 19, "경기도");
+		s2.so();
+		Person s3=new Person("김기용", 19, "경기도");
+		s3.so();*/
+		
+		
+		/*a[0].name="김동혁";
 		a[0].age=26;
 		a[0].js="인천";
 		//a[0].so();
@@ -25,7 +41,7 @@ public class PersonTest {
 		
 		a[2].name="김기용";
 		a[2].age=19;
-		a[2].js="경기도";
+		a[2].js="경기도";*/
 		//a[2].so();
 		/*a1.name="김동혁";
 		a1.age=26;
@@ -48,6 +64,14 @@ public class PersonTest {
 		for(int i=0; i<a.length;i++) {
 			a[i].so();
 		}
+		//[2-4]. 2-3. 에서 생성한 생성자를 이용하여"흥민"이라는 이름으로 사람 객체 하나를 생성하세요.
+		
+		Person s1=new Person("흥민");
+		
+		
+		//[2-5] 2-4객체를 이용하여 introduce() 메서드를 호출하세요.
+		s1.so();
+		
 	}
 
 }
